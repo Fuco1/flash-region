@@ -41,6 +41,7 @@
       (delete-overlay flash-region-ovl))
     (setq flash-region-ovl nil)))
 
+;;;###autoload
 (defun flash-region (beg end &optional face timeout)
   "Show an overlay from BEG to END using FACE to set display
 properties.  The overlay automatically vanishes after TIMEOUT
